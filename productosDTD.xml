@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE productos SYSTEM "productos.dtd">
+<productos>
+    <raton codigo="A4564">
+        <nombre>Simple</nombre>
+        <descripcion>Raton de colo negro, simple, sin algo destacabler</descripcion>
+    </raton>
+    <teclado codigo="B4565">
+        <nombre>Simple</nombre>
+        <descripcion>Color negro, simple, sin algo destacabler</descripcion>
+    </teclado>
+    <producto>Texto de relleno</producto>
+    <producto>Texto de relleno 2</producto>
+</productos>

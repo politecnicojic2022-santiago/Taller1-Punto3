@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<productos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="productos.xsd">
+    <raton codigo="A4564">
+        <nombre>Simple</nombre>
+        <descripcion>Raton de colo negro, simple, sin algo destacabler</descripcion>
+    </raton>
+    <teclado codigo="B4565">
+        <nombre>Simple</nombre>
+        <descripcion>Color negro, simple, sin algo destacabler</descripcion>
+    </teclado>
+    <producto>Texto de relleno</producto>
+    <producto>Texto de relleno 2</producto>
+</productos>
