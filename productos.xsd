@@ -1,0 +1,36 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="productos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="raton" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"></xs:element>
+                            <xs:element name="descripcion" type="xs:string"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:ID" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="teclado" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"></xs:element>
+                            <xs:element name="descripcion" type="xs:string"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:ID" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="monitor" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"></xs:element>
+                            <xs:element name="descripcion" type="xs:string"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:ID" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="producto" type="xs:string" maxOccurs="unbounded" minOccurs="0"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
